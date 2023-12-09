@@ -2,7 +2,7 @@ import { COLORCHANGED, STATUSCHANGED } from "./actionTypes";
 import initialState from "./initialState";
 
 const reducer = (state = initialState, action) => {
-  switch (action.types) {
+  switch (action.type) {
     case STATUSCHANGED:
       return {
         ...state,

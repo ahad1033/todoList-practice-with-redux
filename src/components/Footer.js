@@ -4,7 +4,7 @@ import { statusChanged, colorChanged } from "../redux/filters/actions";
 const numberOfTodos = (numberOfTodos) => {
   switch (numberOfTodos) {
     case 0:
-      return "No tasks";
+      return "No task";
     case 1:
       return "1 task";
 
